@@ -1,0 +1,511 @@
+ <!DOCTYPE html>
+	<html>
+	<head>
+		<title>My imdb</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="imdb.css">
+	</head>
+	<body>
+
+	<div class="header">
+	<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png" class="imdblogo"></span>
+
+	<input type="text" class="txt"placeholder="Find Movies, TV shows,Celebrities and more..." style="width:400px; padding:5px">
+
+	<select style="width:100px;padding:5px" class="all txt">
+		<option>All</option>
+		<option>Titles</option>
+		<option>TV Episodes</option>
+		<option>Names</option>
+		<option>Companies</option>
+		<option>Keywords</option>
+		<option>Characters</option>
+		<option>Quotes</option>
+		<option>Bios</option>
+		<option>Plots</option>
+		<option>Advanced Search »</option>
+	</select>
+
+		<button><i class="fa fa-search"  id="button" aria-hidden="true"></i></button>
+
+		<img src="http://ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-3000473826._CB530713470_.png" class="imdbpro txt">
+
+		<p id="help" class="txt">Help</p>
+		<i class="fa fa-facebook-square txt" aria-hidden="true"></i>
+		<i class="fa fa-twitter txt" aria-hidden="true"></i>
+		<i class="fa fa-instagram txt" aria-hidden="true"></i>
+
+
+		 <!-- <ul class="select">
+			<li class="list">
+				<p><a href="#">Movies</a>, 
+					<a href="#">TV</a> &
+					<a href="#">Showtimes</a>
+				</p></li>
+			
+		</ul>	 -->
+	</div>
+
+<div id="content">
+	<div id="main">
+	<div id="two" >
+	<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNTg5NzI3NzQzNl5BMl5BanBnXkFtZTcwMjM3MDU2OA@@._V1_QL50_SY298_CR2,0,201,298_AL_.jpg" class="img img1" >
+
+	<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZDViNzFhZTctYWFiOS00YjdjLWEyMzAtYzY3MTYzY2Q1Nzk5XkEyXkFqcGdeQXVyNjc4NjAxMzM@._V1_SY298_CR2,0,201,298_AL_.jpg" class="img img1">
+
+	<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2Mjg1Mjk3NF5BMl5BanBnXkFtZTgwOTk5NzEyMjI@._V1_SY298_CR0,0,201,298_AL_.jpg" class="img">
+	</div>
+	 
+	<div class="three">
+		<h2>Movie Magic: $1 Million-a-Day Streaks to Remember</h2>
+		<p >These 29 movies enjoyed the most consecutive days grossing at least $1 million a day at the domestic box office. Can you guess which 1997 film had the longest streak?</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ2NzQ5MTQ5NV5BMl5BanBnXkFtZTgwMjQyOTYzMjI@._CR254,183,1120,839_UX614_UY460._SY230_SX307_AL_.jpg" class="img3" style="margin-right:10px">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2NTkzNjMwNF5BMl5BanBnXkFtZTcwMzE5OTAxNQ@@._CR552,119,933,699_UX614_UY460._SY230_SX307_AL_.jpg" class="img3" >
+
+		<p class="hovered">See the entire list »<p>
+	</div>
+
+	<hr>
+
+	<div class="four">
+		<h2>'Harry Potter' Stars Then and Now</h2>
+
+		<p class="inline">Happy Birthday, <p class="hovered inline" >Rupert Grint</p>! See how <p class="hovered inline">Emma</p>, <p class="hovered inline">Daniel</p>, Rupert, and more have changed since <em class="hovered" >Harry Potter and the Sorcerer's Stone</em> first took fans into <p class="hovered inline">J.K. Rowling</p>'s wizarding world.</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5MjgyNDc3OF5BMl5BanBnXkFtZTgwMTU4Nzk1MDI@._CR9,104,1343,1343_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTEzNDI0Mzg1NzReQTJeQWpwZ15BbWU4MDg2ODc5NTAy._CR85,103,1092,1092_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4OTE0NzE4Nl5BMl5BanBnXkFtZTgwNjU4Nzk1MDI@._CR376,332,863,863_UX402_UY402._SY201_SX201_AL_.jpg" class="img ">
+
+		<p class="hovered">View the gallery »</p>
+	</div>
+
+	<hr>
+
+	<div class="five">
+		<h2>'Crown Heights' Tackles Wrongful Conviction</h2>
+
+		<p class="hovered inline">Lakeith Stanfield</p> and <p class="hovered inline">Nnamdi Asomugha</p> star in <em class="hovered">Crown Heights</em>, the true story of a man wrongly convicted of murder and the best friend who devotes his life to proving his innocence.</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMjY2NTEwMF5BMl5BanBnXkFtZTgwMDc3ODA5MjI@._V1_SX170_CR0,0,170,250_AL_.jpg" class="img3" style="margin-right:10px; width:170px; height:250px">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZDE2YzY4ODMtOTJlOS00ZTUyLTlmMDAtZDQ5NTdjNGNmYTA5XkEyXkFqcGdeQXVyNTMyNjkwMw@@._V1_SY250_CR0,0,444,250_AL_.jpg" class="img3" style="width:420px; height:250px">
+
+		<p class="hovered">Watch the video »</p>
+
+	</div>
+
+	<hr>
+
+	<div class="six">
+		<h2>Crazy Critters, Wild Beasts: When Animals Attack</h2>
+		<p>It's a jungle out there, as this gallery of movie animals gone wild reveals. For more, visit our<p class="hovered inline">Guide to Horror</p>.</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4OTM2MjczOV5BMl5BanBnXkFtZTgwMzcwMzM5MDI@._CR724,21,532,532_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwMjEzOTg3MV5BMl5BanBnXkFtZTcwMzI3NzU0NA@@._CR641,133,1105,1105_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZjUxZDIxMDktM2RjNS00NDQzLThlYmEtYjUwZTNkZjYyNjM0XkEyXkFqcGdeQXVyNTExNjkzNTg@._CR501,106,864,864_UX402_UY402._SY201_SX201_AL_.jpg" class="img">
+
+		<p class="hovered">See the full gallery »</p>
+	</div>
+
+	<hr>
+
+	<div class="seven">
+		<h2 style="padding-right:80px; display:inline">Latest News</h2>
+		<p class="p1 border1" style="color:black">India Top</p>
+		<p class="p1 border1">Hollywood</p>
+		<p class="p1 border1">Movies</p>
+		<p class="p1">Celebs</p>
+
+		<p class="hovered">Paramount Names Jean Chi Evp Business Affairs; David Miercort Promoted</p>
+		<p class="p2 hovered">1 hours ago | Variety - Film News</p>
+		<p>Paramount Pictures continued filling out its executive ranks, naming on Thursday Jean Chi as executive vice president of business affairs, as well as elevating David Miercort to a similarly titled role overseeing business affairs for Paramount Animation.Chi rejoins Paramount after most recently ... </p><p class="hovered" style="display:inline">See more »</p>
+
+		<table>
+			<tr >
+				<td class="hovered">Bernie Styles, Extras Casting Director,Dies at 99
+					<p class="p2">1 hours ago | Variety - Film News</p></td>
+				<td class="hovered">Altaf Raja & Venus Worldwide Entertainment create history! : Trade News <p class="p2">2 hours ago | Bollywood Trade</p></td> 
+			</tr>
+			<tr >
+				<td class="hovered">William H. Macy, ‘Layover’ Star Alexandra Daddario Discuss Importance of Female Leads <p class="p2">1 hours ago | Variety - Film News</p></td>
+				<td class="hovered"> Watch Wild 'BoJack Horseman' Trailer With No BoJack Horseman <p class="p2">2 hours ago | Rollingstone.com</p></td>	
+			</tr>
+
+			<tr class="hovered"><td>See more India Top News</td></tr>
+		</table>
+	</div>
+
+	<hr>
+	<div class="eight">
+		<h2>IMDb Snapshot</h2>
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxOTY5ODQ0N15BMl5BanBnXkFtZTgwNDQ5MTkyMzI@._CR457,104,976,976_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU4MDQ4NTM2N15BMl5BanBnXkFtZTgwNDM1NTIzMzI@._CR13,166,1369,1369_UX402_UY402._SY201_SX201_AL_.jpg" class="img img1">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjM4NDk0NDQ5OV5BMl5BanBnXkFtZTgwNDM1NDEzMzI@._CR1046,74,596,596_UX402_UY402._SY201_SX201_AL_.jpg" class="img">
+	</div>
+
+	<hr>
+
+	<div class="nine">
+		<h2>Born Today</h2>
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2Njk0NTUyNl5BMl5BanBnXkFtZTcwODE0OTgyNw@@._V1_SY172_CR7,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNTgxNTk0M15BMl5BanBnXkFtZTcwNzM5Mjc1OA@@._V1_SY172_CR2,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMzcwNTM4MzctYjQzMi00NTA2LTljYWItNTYzNmE1MTYxN2RlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SY172_CR9,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTcwNTc4NTMzOF5BMl5BanBnXkFtZTYwMzc5ODYz._V1_SX116_CR0,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2NjUxNzgxMV5BMl5BanBnXkFtZTcwNTc1Mjc1MQ@@._V1_SX116_CR0,0,116,172_AL_.jpg" class="img4">
+
+		<p class="hovered">See all birthdays »</p>
+	</div>
+
+	<hr>
+
+	<div class="ten">
+		<h2>Supervillians In and Out Of Costume</h2>
+
+		<p>See what Hela looks like without the party-ready headgear with this gallery of superstar villains in character and in real life.</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMDE5NzIyODgtOWQ1YS00ZjdkLTk3MmUtYWU4M2RhNjZlYWU1XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._CR498,0,913,684_UX614_UY460._SY230_SX307_AL_.jpg" class="img3" style="margin-right:10px">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwNzk2MTYyNzBeQTJeQWpwZ15BbWU4MDM1MTk4OTIy._CR5,22,1162,871_UX614_UY460._SY230_SX307_AL_.jpg" class="img3">
+
+		<p class="hovered">See more villians without their costumes »</p>
+	</div>
+
+	<hr>
+
+	<div class="eleven">
+		<h2>Latest Television Casting Updates</h2>
+
+		<p class="inline">Find out what's in store for <p class="hovered inline">Peter Krause</p>, <p class="hovered inline">Patrick Dempsey</p>, and more in our rundown of recent television casting updates.</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNzM0NTQyNDY5NV5BMl5BanBnXkFtZTgwMzMyNjk0ODE@._CR105,23,831,623_UX614_UY460._SY230_SX307_AL_.jpg" class="img3" style="margin-right:10px">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5ODAwMDQ1N15BMl5BanBnXkFtZTgwNDc4MTIwMDI@._CR731,68,1305,978_UX614_UY460._SY230_SX307_AL_.jpg" class="img3">
+
+		<p class="hovered">Get television casting updates »</p>
+	</div>
+
+	<hr>
+
+	<div class="twelve">
+		<h2>Trending Movies Available on Prime Video</h2>
+
+		<p>Trending movies and TV shows on IMDb available to stream on Amazon Prime Video</p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNzYyZWMzNmUtYzViZC00ZDEyLWEyZjMtMTc2MzNkODM0MzhjXkEyXkFqcGdeQXVyNjY0ODQxMjE@._V1_SX116_CR0,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY172_CR0,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNTg3MzRkNjgtYTJmZi00NDI5LTgxNGQtYWFkZWM4YzRlOTJmL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY172_CR6,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNjU4NjQxN15BMl5BanBnXkFtZTcwODMyNDE0MQ@@._V1_SY172_CR2,0,116,172_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjJjODRlNTctM2IxYS00ZGQ4LTg2ZTItMTFiOTJkM2EyNmY4L2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY172_CR2,0,116,172_AL_.jpg" class="img4">
+
+		<p class="hovered">See the trending 10 »</p>			
+	</div>
+
+	<hr>
+
+	<div class="thirteen">
+		<h2 class="inline">Montreal World Film Festival</h2>
+		<p class="p1" style="color:#797e87">|Aug. 24 to Sept. 4, 2017</p>
+
+		<p class="inline">Discover the complete lineup of films screening at the <p class="hovered" style="display:inline">Montreal World Film Festival.</p></p>
+
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZTIyZjUwNjYtYjM0MS00MzM2LTk2NjQtNTQwYmRjMmU3MWFjXkEyXkFqcGdeQXVyNzI3MzY5NTU@._V1_SY230_CR19,0,307,230_AL_.jpg" class="img3" style="margin-right:10px">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BY2Y0MDdhNGYtYzZmMi00YjMyLTljMTAtZGE2MWM3MzE3NmM2XkEyXkFqcGdeQXVyNzYyODc4ODA@._V1_SY230_CR118,0,307,230_AL_.jpg" class="img3">
+
+		<p class="hovered">Learn more about the festival »</p>
+	</div>
+
+	<hr>
+
+	<div class="fourteen">
+		<h2 class="inline">Poll:Best'James Bond' Director</h2>
+		<p class="p1">| More Polls</p>
+
+		<p><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNTgzODMyMDUwNF5BMl5BanBnXkFtZTcwNzEyMjAyMg@@._V1_SX140_CR0,0,140,207_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwODg0MjMwMV5BMl5BanBnXkFtZTYwMzY5NTU0._V1_SX140_CR0,0,140,207_AL_.jpg"class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5ODQxMDcxNV5BMl5BanBnXkFtZTcwNjg5NzE1OQ@@._V1_SY207_CR24,0,140,207_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDY2MTg1N15BMl5BanBnXkFtZTYwNzEyNzA1._V1_SY207_CR2,0,140,207_AL_.jpg" class="img4 img5">
+		<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzOTExMTQ0NF5BMl5BanBnXkFtZTcwOTI4MzczNA@@._V1_SY207_CR0,0,140,207_AL_.jpg" class="img4"></p>
+
+		<p class="inline">Which James Bond director is your favorite? Discuss <p class="hovered" style="display:inline">here</p> after voting.</p>
+		<p class="hovered">Vote now »</p>
+	</div>
+	</div>
+
+	<div id="side">
+		<img src="https://images-na.ssl-images-amazon.com/images/G/02/shazam/1057044-Raabta-IMDBAMS-300x250-d9b21df9-ea87-465a-ab5b-43490d4cecdb.jpg">
+		<div id="ad" class="hovered">ad feedback</div>
+		<hr>
+
+		<div class="side0">
+			<h3 style="font-size:20px; padding:10px 20px">Trending Indian Movies and Shows</h3>
+			<p style="padding:2px 20px">Real-time popularity on IMDb (10:43:07 India Standard Time)</p>
+			<p style="padding-left:150px;font-size:10px">% OF TOP 10 PAGE VIEWS</p>
+
+			<table>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYmI5Y2JkNzUtNWJkZC00OTE1LTg3ZDItMjQ0Mzc1MjdhMzhiXkEyXkFqcGdeQXVyMjQwOTU5NTg@._V1_UY268_CR1,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#1</td>
+					<td class="percent 3rd">Golmaal Again</td>
+					<td >29.4%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDVmNjhlNDktMTg2MS00NGZkLWJhMTYtNzhmM2I0NGYzZTVmXkEyXkFqcGdeQXVyMjM1NjkwMDI@._V1_UY268_CR9,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#2</td>
+					<td class="percent 3rd">Secret Superstar</td>
+					<td >16.9%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNDQ3ODI3N15BMl5BanBnXkFtZTgwMTUwNTEzMzI@._V1_UY268_CR1,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#3</td>
+					<td class="percent 3rd">Judwaa 2</td>
+					<td >13.6%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BODM0ODNlNDQtNWJkYi00YzUyLWI2YjYtMWNmODVmOGY1MmVjXkEyXkFqcGdeQXVyMjY1MjI1MTk@._V1_UY268_CR9,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#4</td>
+					<td class="percent 3rd">Mersal</td>
+					<td >12.5%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNjcwNTI3N15BMl5BanBnXkFtZTgwODU3NTE2MjI@._V1_UY268_CR11,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#5</td>
+					<td class="percent 3rd">Villian</td>
+					<td >9.3%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY268_CR4,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#6</td>
+					<td class="percent 3rd">Dangal</td>
+					<td >4.7%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDdmODQ0YjYtZGExNi00YWY2LTlmZGMtMzJiZmRlYTY1ZGI0XkEyXkFqcGdeQXVyNjAwODkyNDM@._V1_UY268_CR9,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#7</td>
+					<td class="percent 3rd">Toilet-Ek Prem Katha</td>
+					<td >4.3%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BOTc0YTJhZDktMGViYi00NjIwLThiMDEtY2E4NWFkYWQxNjQ5XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#8</td>
+					<td class="percent 3rd">Mom</td>
+					<td >3.3%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNGVlZjNjMzUtNGNiNi00Yjg2LWFmZDItNTgyYjU1NGM2NzE0XkEyXkFqcGdeQXVyNzg0OTQyNzQ@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#9</td>
+					<td class="percent 3rd">RAGINI MMS RETU..</td>
+					<td >3.1%</td>
+				</tr>
+				<tr>
+					<td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMWRjOTAxMmQtMjViMC00OWU2LTlkZTQtNTYyYjhiZjMzYjg4XkEyXkFqcGdeQXVyODA2ODM3NDQ@._V1_UY268_CR2,0,182,268_AL__QL50.jpg" class="imgs"></td>
+					<td>#10</td>
+					<td class="percent 3rd">Bahubali 2: The Con...</td>
+					<td >2.5%</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="side1">
+			<h3>Top India Charts</h3>
+			<div class="hovered">Top Rated Indian Movies</div>
+			<div class="hovered">Top Rated Malayalam Movies</div>
+			<div class="hovered">Top Rated Tamil Movies</div>
+			<div class="hovered">Top Rated Telugu Movies</div>
+		</div>
+
+		<hr>
+
+		<div class="side2">
+			<h3 class="effect">Now Playing(Box Office)</h3>
+			<table>
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> The Hitman's BodyGuard</div><div class="xs">$21.4M</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Annabelle:Creation</div><div class="xs">$15.6M</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Logan Lucky</div><div class="xs">$7.6M</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Dunkirk</div><div class="xs">$6.6M</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> The Nut Job 2: Nutty by Nature</div><div class="xs">$5.1M</div></td>
+				</tr>
+			</table>	
+
+			<p class="hovered">See more box office results »</p>
+		</div>
+
+		<hr>
+
+		<div class="side3">
+			<h3 class="effect">Coming Soon</h3>
+			<table>
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered">Unlocked</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered">Close Encounters of the Third Kind</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Dolores</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Viceroy's House</div></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-plus-circle" aria-hidden="true"></i></td>
+					<td><div class="hovered"> Do It Like An Homebre</div></td>
+				</tr>
+			</table>
+
+			<p class="hovered">See more coming soon »</p>
+		</div>
+
+		<hr>
+
+		<div class="side4">
+			<h3>IMDb India Spotlight</h3>
+
+			<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjMzNWYyZDQtNzliYi00NWQwLTkwMmYtYzcxZGZiM2E4YjQ4XkEyXkFqcGdeQXVyMjYwMDk5NjE@._CR164,9,728,546_UX614_UY460._QL50_SY230_SX307_AL_.jpg">
+
+			<div>Discover top rated and trending movies, celebrity interviews, quizzes, and the best in Indian entertainment on IMDb.</div>
+
+			<p class="hovered">Check out India Spotlight »</p>
+		</div>
+		<hr>
+	</div>
+</div>
+
+	<div class="footer">
+		<h3 style="font-size:20px"> Recently Viewed <p class="p2 inline hovered" style="float:right">Manage your history</p></h3>
+	</div>
+
+	<div class="footer">
+		<hr>
+		<table>
+			<tr>
+				<td style="width:350px;vertical-align:top;border-right:1px solid #636870; padding: 0 10px"><h3 style="font-size:20px">IMDb Everywhere</h3>
+
+					<img src="https://www.mobybliz.com/images/logo-app_store.png" style="width:100px;padding-right:5px">
+					<img src="https://www.greystonepower.com/wp-content/uploads/2016/03/google.png" style="width:100px;padding-right:5px">
+					<img src="http://si-www-footballmanager-com-shared.s3.amazonaws.com/amazon-appstore-button2-1.png" style="width:100px; padding-right:5px">
+
+					<p class="border2">Find showtimes, watch trailers, browse photos, track your Watchlist and rate your favorite movies and TV shows on your phone or tablet!</p>
+
+					<p class="hovered">IMDb Mobile site</p>
+
+				</td>
+
+				<td style="width:150px;vertical-align:top;border-right:1px solid #636870;padding-left: 5px"><h3 style="font-size:20px">Follow IMDb on</h3>
+					<i style="color:#2f538c; padding-right:15px; padding-left:8px"class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+					<i style="color:#26b6ef; padding-right:15px" class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+					<i style="color:#41778c" class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+				</td>	
+
+				<td style="width:450px;vertical-align:top;padding:20px 0 0 20px; font-size:13px">
+					<table>
+						<tr>
+							<td class="hovered" style="padding-right:30px">Home</td>
+							<td class="hovered" style="padding-right:30px">Contact Us</td>
+							<td class="hovered">IMDbPro</td>
+						</tr>
+
+						<tr>
+							<td class="hovered" style="padding-right:30px">Top Rated Movies</td>
+							<td class="hovered" style="padding-right:30px">Register</td>
+							<td class="hovered">Box Office Mojo</td>
+						</tr>
+
+						<tr>
+							<td class="hovered" style="padding-right:30px">Box Office</td>
+							<td class="hovered" style="padding-right:30px">News</td>
+							<td class="hovered">Withoutabox</td>
+						</tr>
+
+						<tr>
+							<td class="hovered">TV</td>
+						</tr>
+
+						<tr>
+							<td class="hovered" style="padding-right:30px">Coming Soon</td>
+							<td class="hovered" style="padding-right:30px">Press Room</td>
+							<td class="hovered" >Conditions of Use</td>
+						</tr>
+
+						<tr>
+							<td class="hovered" style="padding-right:30px">Site Index</td>
+							<td class="hovered" style="padding-right:30px">Advertising</td>
+							<td class="hovered">Privacy Policy</td>
+						</tr>
+
+						<tr>
+							<td class="hovered" style="padding-right:30px">Search</td>
+							<td class="hovered" style="padding-right:30px">Jobs</td>
+							<td class="hovered">Interest-Based Ads</td>
+						</tr>
+
+						<tr>
+							<td class="hovered">In Theaters</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<hr>
+	</div>
+
+	<div class="footer">
+		<div style="font-size:13px">An  <img src="http://www.mix-djs.net/wp-content/uploads/2016/02/47.png" style="width:80px;height:15px;padding:0 5px;padding-top:10px"> company.</div>
+
+		<div style="font-size:11px;float:right"><a href="#">Copyright ©</a>1990-2017 <a href="#">IMDb.com, Inc.
+	    </a></div>
+
+		<table>
+			<tr style="font-size:11px">
+				<td class="last">Amazon Affiliates <div class="hovered">Amazon Video </div>Watch Movies & TV Online</td>
+
+				<td class="last"> <div class="hovered">Prime Video </div>Unlimited Streaming of Movies & TV</td>
+
+				<td class="last"> <div class="hovered">Amazon Germany </div>Buy Movies on DVD & Blu-ray</td>
+
+				<td class="last"> <div class="hovered">Amazon Italy </div>Buy Movies on DVD & Blu-ray</td>
+
+				<td class="last"> <div class="hovered">Amazon France </div>Buy Movies on DVD & Blu-ray</td>
+
+				<td class="last"><div class="hovered">Amazon India </div>Buy Movie and TV Show DVDs</td>
+
+				<td class="last"> <div class="hovered">DPReview </div>Digital Photography</td>
+
+				<td> <div class="hovered">Audible</div> Download Audio Books</td>
+			</tr>
+		</table>
+	</div>
+
+	</body>
+	</html> 

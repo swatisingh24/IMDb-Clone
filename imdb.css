@@ -1,0 +1,222 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Roboto;
+	background-color: #dfdfdf;
+	font-weight: 400;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imdblogo{
+	width: 100px;
+	padding-right: 20px;
+}
+
+button .fa-search{
+	outline: none;
+	border: none;
+}
+
+.header{
+	background-color: #444340;
+	padding: 20px 20px;
+}
+
+#content{
+	display: flex;
+}
+#main{
+	width: 68%;
+	background-color: white;
+	padding: 20px 20px;
+	border-right: 1.5px solid grey;
+}
+
+#side{
+	width: 32%;
+	background-color: #f1f1f1;
+	padding: 20px 20px;
+	border-left: 1.5px solid grey;
+}
+
+#two{
+	padding: -20px -20px;
+	background-color: #2e2c20;
+}
+
+.footer{
+	padding: 20px 20px;
+	background-color: #f1f1f1;
+}
+.txt{
+	vertical-align: top;
+	padding: 10px;
+}
+button{
+	height: 30px;
+	width: 50px;
+	background-color: #eac407;
+	vertical-align: top;
+}
+
+.all:hover{
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+h2:hover{
+	color: rgba(65, 104, 198, 0.8);
+	text-decoration: underline rgba(65, 104, 198, 0.8);
+	cursor: pointer;
+}
+
+.effect:hover{
+	color: rgba(65, 104, 198, 0.8);
+	text-decoration: underline rgba(65, 104, 198, 0.8);
+	cursor: pointer;
+}
+
+.imdbpro{
+    width: 60px;
+}
+
+.img{
+	width:195px;
+}
+.img1{
+	margin-right: 8px;
+}
+h2{
+	color: #55575b;
+	font-weight: 500;
+}
+h3{
+	color: #55575b;
+	font-weight: 500;
+}
+#help{
+	color: white;
+	display: inline;
+	font-size: 12px;
+}
+
+.fa{
+	color: #f1f1f1;
+}
+#button{
+	color: black;
+	background-color: #eac407;
+}
+
+.hovered{
+	color: rgb(7,46,186);
+}
+.hovered:hover{
+	text-decoration: underline rgb(7,46,186);
+	cursor: pointer;
+}
+
+.p1{
+	display: inline;
+	font-size: 18px;
+	font-family:'Abril Fatface';
+	padding:0 10px;
+	color: rgb(7,46,186);
+}
+
+.inline{
+	display: inline;
+}
+
+.border1{
+	border-right: 2px solid #f1f1f1;
+}
+.p2{
+	font-size: 12px;
+}
+
+.img3{
+	width: 298px;
+}
+
+.img4{
+	width: 115px;
+}
+.img5{
+	margin-right: 4.5px;
+}
+
+#part3{
+	padding: 0 20px 100px 20px;
+}
+
+#part4{
+	font-size: 15px;
+}
+
+.icons{
+	background-color: blue;
+}
+
+.border2{
+	padding: 20px 0;
+	border-bottom: 1px solid #636870;
+}
+.last{
+	padding-right: 20px;
+}
+
+.select{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	vertical-align: top;
+}
+
+.fa-plus-circle{
+	color: grey;
+}
+
+.xs{
+	font-size: 13px;
+	color: #626262;
+}
+
+#ad{
+	font-size: 10px;
+	text-align: center;
+}
+
+.imgs{
+	width: 30px;
+	height: 40px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.side0{
+	background-color: #444340;
+	font-size: 13px;
+	color: white;
+}
+
+.side0 h3{
+	color: white;
+	font-size: 15px;
+}
+
+.3rd:hover{
+	text-decoration: underline white;
+	cursor: pointer;
+}
+
+.percent{
+	padding-right: 40px;
+	padding-left: 10px;
+}
+
+.percent:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
