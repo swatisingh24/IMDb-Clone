@@ -1,15 +1,15 @@
 body{
-	width: 1000px;
+	width: 1100px;
 	margin: 0 auto;
 	font-family: Roboto;
-	background-color: #dfdfdf;
-	font-weight: 400;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #dedede;
+	font-weight: 300;
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .imdblogo{
-	width: 100px;
-	padding-right: 20px;
+	width: 90px;
+	padding-right: 10px;
 }
 
 button .fa-search{
@@ -18,7 +18,7 @@ button .fa-search{
 }
 
 .header{
-	background-color: #444340;
+	background-color: #444240;
 	padding: 20px 20px;
 }
 
